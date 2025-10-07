@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>柴谷 徹 ポートフォリオ | Web Designer Portfolio</title>
+    <!-- Tailwind CSSを読み込み -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* カスタムフォントと基本設定 */
+        body {
+            font-family: "Inter", sans-serif;
+            background-color: #f7f9fc;
+            line-height: 1.7;
+        }
+        /* カード内の項目名（タイトル）のスタイル */
+        .info-title {
+            font-weight: 600;
+            color: #4a5568; /* Tailwind gray-700 */
+        }
+        /* h3タイトルリンクのスタイル */
+        .work-title a {
+            color: #4338ca; /* Indigo-700 */
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .work-title a:hover {
+            color: #6366f1; /* Indigo-500 */
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- メインコンテナ -->
+    <div class="container mx-auto p-4 md:p-10 max-w-4xl">
+
+        <!-- ヘッダー / 挨拶 -->
+        <header class="text-center mb-12 py-10 bg-white rounded-xl shadow-lg">
+            <h1 class="text-4xl font-extrabold text-gray-800 mb-4">柴谷徹 Portfolio</h1>
+            <p class="text-xl font-medium text-indigo-600 mb-6">Web Designer / Director</p>
+
+            <div class="max-w-2xl mx-auto px-4 text-left">
+                <p class="text-gray-600 mb-4">
+                    この度は、柴谷徹のポートフォリオをご覧いただきありがとうございます。
+                </p>
+                <p class="text-gray-700 font-semibold border-t pt-4 mt-4">
+                    これまで「情報を正しく伝える」「クライアントの課題を解決する」ことを心がけて制作に励んでまいりました。本ドキュメントでは、過去に制作したWebサイトをご紹介しています。
+                </p>
+                <p class="text-sm text-gray-500 mt-2">
+                    （Googleドライブ内に印刷物などを掲載しております。あわせてご覧いただけますと幸いです。）
+                </p>
+            </div>
+        </header>
+
+        <!-- プロフィールセクション -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 border-b-4 border-indigo-500 pb-2 mb-6">プロフィール</h2>
+            
+            <div class="bg-white p-6 rounded-xl shadow-md space-y-4">
+                <div class="flex flex-col sm:flex-row sm:space-x-8">
+                    <p class="w-full sm:w-1/3 info-title">氏名</p>
+                    <p class="w-full sm:w-2/3">柴谷 徹</p>
+                </div>
+                
+                <hr class="border-gray-200">
+
+                <div class="flex flex-col sm:flex-row sm:space-x-8">
+                    <p class="w-full sm:w-1/3 info-title">来歴</p>
+                    <p class="w-full sm:w-2/3 text-gray-700">
+                        1977年神戸市生まれ。幼少期よりイラストなどを描くことが好きで、大学では美術部に所属。30代半ばでWebデザインを学び、フリーランスでWebデザインをメインに活動。前職のNPO法人ではWebサイトの他、セミナー動画の撮影・編集、チラシの作成などを担当した。
+                    </p>
+                </div>
+
+                <hr class="border-gray-200">
+                
+                <div class="flex flex-col sm:flex-row sm:space-x-8">
+                    <p class="w-full sm:w-1/3 info-title">経験・使用可能ツール
+                        <span class="text-xs text-red-500 block mt-1">※2年以上のブランクがあります。</span>
+                    </p>
+                    <div class="w-full sm:w-2/3">
+                        <p class="text-gray-700 font-medium mb-1">【Web・開発関連】</p>
+                        <ul class="list-disc list-inside ml-4 text-gray-600">
+                            <li>HTML/CSS/JavaScript（既存コードの使用）</li>
+                            <li>WordPress</li>
+                            <li>VScode</li>
+                        </ul>
+                        <p class="text-gray-700 font-medium mt-3 mb-1">【デザイン・動画編集】</p>
+                        <ul class="list-disc list-inside ml-4 text-gray-600">
+                            <li>Adobe Photoshop / Adobe Illustrator</li>
+                            <li>Adobe XD</li>
+                            <li>Adobe Premiere Pro</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Webサイト制作実績セクション -->
+        <section>
+            <h2 class="text-3xl font-bold text-gray-800 border-b-4 border-indigo-500 pb-2 mb-8">Webサイト制作実績</h2>
+
+            <!-- 実績カード 1: 株式会社エン・リサーチ -->
+            <div class="bg-white p-6 rounded-xl shadow-lg mb-8 hover:shadow-xl transition duration-300">
+                <h3 class="text-2xl font-bold mb-3 work-title">
+                    <a href="https://en-research.jp/" target="_blank">株式会社エン・リサーチ様</a>
+                </h3>
+                <p class="text-sm info-title mb-4">ジャンル：賃貸仲介・賃貸管理・売買仲介</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4 text-sm">
+                    <p><span class="info-title">URL:</span> <a href="https://en-research.jp/" target="_blank" class="text-blue-500 hover:text-blue-700 underline">https://en-research.jp/</a></p>
+                    <p><span class="info-title">クライアント:</span> 株式会社 保険のリサーチ様</p>
+                    <p><span class="info-title">制作期間:</span> 6カ月</p>
+                    <p><span class="info-title">使用言語・CMS:</span> WordPress・HTML・CSS・JavaScript</p>
+                </div>
+                
+                <div class="bg-gray-50 p-4 rounded-lg mb-4 border-l-4 border-red-500">
+                    <p class="info-title text-lg text-red-600 mb-2">制作担当</p>
+                    <ul class="list-disc list-inside ml-4 text-gray-700">
+                        <li>ディレクション（ヒアリング・仕様策定・構成案・ワイヤーフレーム作成）</li>
+                        <li>デザイン（ロゴ除く）</li>
+                        <li>コーディング</li>
+                        <li>運用サポート（初回操作説明のみ）</li>
+                    </ul>
+                </div>
+
+                <div class="bg-yellow-50 p-4 rounded-lg">
+                    <p class="info-title text-lg text-yellow-800 mb-2">制作の背景・工夫点</p>
+                    <p class="text-gray-700 text-sm">
+                        保険業の企業様より、不動産投資サイト新規作成のご依頼。不動産情報を社内で更新できる仕様をご希望されたため、WordPressのカスタム投稿機能を活用し、クライアント側の運用負担を軽減しました。合わせて本業の企業サイト「<a href="https://hoken-research.co.jp/" target="_blank" class="text-blue-500 hover:text-blue-700 underline">保険のリサーチ</a>」、ファイナンシャルプランナー企業のサイト「<a href="https://finance-research.jp/" target="_blank" class="text-blue-500 hover:text-blue-700 underline">ファイナンスリサーチ</a>」の計3サイトを同時に作成しました。
+                    </p>
+                </div>
+            </div>
+
+            <!-- 実績カード 2: NPO法人子育てコンビニ -->
+            <div class="bg-white p-6 rounded-xl shadow-lg mb-8 hover:shadow-xl transition duration-300">
+                <h3 class="text-2xl font-bold mb-3 work-title">
+                    <a href="https://kosodate.or.jp/" target="_blank">NPO法人子育てコンビニ様</a>
+                </h3>
+                <p class="text-sm info-title mb-4">ジャンル：NPO法人（子育て支援）</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4 text-sm">
+                    <p><span class="info-title">URL:</span> <a href="https://kosodate.or.jp/" target="_blank" class="text-blue-500 hover:text-blue-700 underline">https://kosodate.or.jp/</a></p>
+                    <p><span class="info-title">クライアント:</span> NPO法人子育てコンビニ様</p>
+                    <p><span class="info-title">制作期間:</span> 5カ月</p>
+                    <p><span class="info-title">使用言語・CMS:</span> WordPress・HTML・CSS・JavaScript</p>
+                </div>
+                
+                <div class="bg-gray-50 p-4 rounded-lg mb-4 border-l-4 border-red-500">
+                    <p class="info-title text-lg text-red-600 mb-2">制作担当</p>
+                    <ul class="list-disc list-inside ml-4 text-gray-700">
+                        <li>ディレクション（ヒアリング・仕様策定・構成案・ワイヤーフレーム作成）</li>
+                        <li>デザイン（ロゴ・イラスト除く）</li>
+                        <li>コーディング</li>
+                        <li>運用サポート</li>
+                    </ul>
+                </div>
+
+                <div class="bg-yellow-50 p-4 rounded-lg">
+                    <p class="info-title text-lg text-yellow-800 mb-2">制作の背景・工夫点</p>
+                    <p class="text-gray-700 text-sm">
+                        設立20周年の記念に合わせた既存サイトのフルリニューアル。主要なご要望は、スマホ対応、複雑化していた情報の整理、既存コンテンツの継承、そしてイベント情報を法人内で更新できる仕様の実現でした。情報の整理とユーザビリティ向上に注力しました。
+                    </p>
+                </div>
+            </div>
+
+            <!-- 実績カード 3: フリースクールコスモ高等部 -->
+            <div class="bg-white p-6 rounded-xl shadow-lg mb-8 hover:shadow-xl transition duration-300">
+                <h3 class="text-2xl font-bold mb-3 work-title">
+                    <a href="https://cosmo-highschool.org/" target="_blank">フリースクールコスモ高等部様</a>
+                </h3>
+                <p class="text-sm info-title mb-4">ジャンル：教育（フリースクール）</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4 text-sm">
+                    <p><span class="info-title">URL:</span> <a href="https://cosmo-highschool.org/" target="_blank" class="text-blue-500 hover:text-blue-700 underline">https://cosmo-highschool.org/</a></p>
+                    <p><span class="info-title">クライアント:</span> NPO法人文化学習協同ネットワーク様</p>
+                    <p><span class="info-title">制作期間:</span> 3カ月</p>
+                    <p><span class="info-title">使用言語・CMS:</span> WordPress・HTML・CSS・JavaScript</p>
+                </div>
+                
+                <div class="bg-gray-50 p-4 rounded-lg mb-4 border-l-4 border-red-500">
+                    <p class="info-title text-lg text-red-600 mb-2">制作担当</p>
+                    <ul class="list-disc list-inside ml-4 text-gray-700">
+                        <li>ディレクション（ヒアリング・仕様策定・構成案・ワイヤーフレーム作成）</li>
+                        <li>デザイン（ロゴ・一部イラスト除く）</li>
+                        <li>コーディング</li>
+                        <li>運用サポート（初回操作説明のみ）</li>
+                    </ul>
+                </div>
+
+                <div class="bg-yellow-50 p-4 rounded-lg">
+                    <p class="info-title text-lg text-yellow-800 mb-2">制作の背景・工夫点</p>
+                    <p class="text-gray-700 text-sm">
+                        フリースクール（高校生年代）の立ち上げに伴う新規サイト作成。ターゲットである生徒や保護者に入学のプロセスが分かりやすく伝わるよう、入会のご案内からお問い合わせへの導線設計に最も注力して制作しました。現状は運用担当者により、一部改修された状態となっています（トップのアニメーションなど）。
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- フッター -->
+        <footer class="text-center mt-12 pt-6 border-t border-gray-300 text-gray-500 text-sm">
+            <p class="text-xs mt-1">
+                このドキュメントは、作成した原稿を基にAI（<a href="https://gemini.google.com/" target="_blank" class="text-blue-500 hover:text-blue-700 underline">Google Gemini</a>）にて加工後、編集を加えたものとなります。
+            </p>
+            <p>© 2025 Tooru Shibatani</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
