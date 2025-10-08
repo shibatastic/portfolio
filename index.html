@@ -28,6 +28,15 @@
             color: #6366f1; /* Indigo-500 */
             text-decoration: underline;
         }
+        /* サムネイル画像にリンクがある場合、カーソルをポインターにする */
+        .work-thumbnail-link {
+            display: block;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .work-thumbnail-link:hover {
+            opacity: 0.9;
+        }
     </style>
 </head>
 <body>
@@ -85,7 +94,7 @@
                             <li>WordPress</li>
                             <li>VScode</li>
                         </ul>
-                        <p class="text-gray-700 font-medium mt-3 mb-1">【デザイン・動画編集】</p>
+                        <p class="text-700 font-medium mt-3 mb-1">【デザイン・動画編集】</p>
                         <ul class="list-disc list-inside ml-4 text-gray-600">
                             <li>Adobe Photoshop / Adobe Illustrator</li>
                             <li>Adobe XD</li>
@@ -105,11 +114,13 @@
                 <h3 class="text-2xl font-bold mb-3 work-title">
                     <a href="https://en-research.jp/" target="_blank">株式会社エン・リサーチ様</a>
                 </h3>
-                <!-- サムネイル画像 -->
-                <img src="https://shibatastic.github.io/portfolio/img/en-research.jpg" 
-                     alt="株式会社エン・リサーチ Webサイト サムネイル" 
-                     class="w-full h-auto rounded-lg shadow-md mb-4 border border-gray-200" 
-                     onerror="this.onerror=null;this.src='https://placehold.co/800x450/312e81/ffffff?text=画像が表示できません'">
+                <!-- サムネイル画像にリンクを設置 -->
+                <a href="https://en-research.jp/" target="_blank" class="work-thumbnail-link">
+                    <img src="https://shibatastic.github.io/portfolio/img/en-research.jpg" 
+                         alt="株式会社エン・リサーチ Webサイト サムネイル" 
+                         class="w-full h-auto rounded-lg shadow-md mb-4 border border-gray-200" 
+                         onerror="this.onerror=null;this.src='https://placehold.co/800x450/312e81/ffffff?text=画像が表示できません'">
+                </a>
                 <!-- ここまで -->
                 <p class="text-sm info-title mb-4">ジャンル：賃貸仲介・賃貸管理・売買仲介</p>
                 
@@ -143,11 +154,13 @@
                 <h3 class="text-2xl font-bold mb-3 work-title">
                     <a href="https://kosodate.or.jp/" target="_blank">NPO法人子育てコンビニ様</a>
                 </h3>
-                <!-- サムネイル画像追加 -->
-                <img src="https://shibatastic.github.io/portfolio/img/kosodate.jpg" 
-                     alt="NPO法人子育てコンビニ Webサイト サムネイル" 
-                     class="w-full h-auto rounded-lg shadow-md mb-4 border border-gray-200" 
-                     onerror="this.onerror=null;this.src='https://placehold.co/800x450/312e81/ffffff?text=画像が表示できません'">
+                <!-- サムネイル画像にリンクを設置 -->
+                <a href="https://kosodate.or.jp/" target="_blank" class="work-thumbnail-link">
+                    <img src="https://shibatastic.github.io/portfolio/img/kosodate.jpg" 
+                         alt="NPO法人子育てコンビニ Webサイト サムネイル" 
+                         class="w-full h-auto rounded-lg shadow-md mb-4 border border-gray-200" 
+                         onerror="this.onerror=null;this.src='https://placehold.co/800x450/312e81/ffffff?text=画像が表示できません'">
+                </a>
                 <!-- ここまで -->
                 <p class="text-sm info-title mb-4">ジャンル：NPO法人（子育て支援）</p>
                 
@@ -181,11 +194,13 @@
                 <h3 class="text-2xl font-bold mb-3 work-title">
                     <a href="https://cosmo-highschool.org/" target="_blank">フリースクールコスモ高等部様</a>
                 </h3>
-                <!-- サムネイル画像追加 -->
-                <img src="https://shibatastic.github.io/portfolio/img/cosmo.jpg" 
-                     alt="フリースクールコスモ高等部 Webサイト サムネイル" 
-                     class="w-full h-auto rounded-lg shadow-md mb-4 border border-gray-200" 
-                     onerror="this.onerror=null;this.src='https://placehold.co/800x450/312e81/ffffff?text=画像が表示できません'">
+                <!-- サムネイル画像にリンクを設置 -->
+                <a href="https://cosmo-highschool.org/" target="_blank" class="work-thumbnail-link">
+                    <img src="https://shibatastic.github.io/portfolio/img/cosmo.jpg" 
+                         alt="フリースクールコスモ高等部 Webサイト サムネイル" 
+                         class="w-full h-auto rounded-lg shadow-md mb-4 border border-gray-200" 
+                         onerror="this.onerror=null;this.src='https://placehold.co/800x450/312e81/ffffff?text=画像が表示できません'">
+                </a>
                 <!-- ここまで -->
                 <p class="text-sm info-title mb-4">ジャンル：教育（フリースクール）</p>
                 
