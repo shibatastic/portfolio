@@ -122,9 +122,12 @@
                          onerror="this.onerror=null;this.src='https://placehold.co/800x450/312e81/ffffff?text=画像が表示できません'">
                 </a>
                 <!-- ここまで -->  
-                <p class="text-sm info-title mb-4">URL:</span> <a href="https://kosodate.or.jp/" target="_blank" class="text-blue-500 hover:text-blue-700 underline">https://cosmo-highschool.org/</a></p>
+                <!-- 修正: ジャンルの前のURL表示は冗長なため、grid内の表示に統一します -->
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4 text-sm">
+                    <!-- URLを最初に配置 -->
+                    <p><span class="info-title">URL:</span> <a href="https://en-research.jp/" target="_blank" class="text-blue-500 hover:text-blue-700 underline">https://en-research.jp/</a></p>
                     <p><span class="info-title">ジャンル:</span> 賃貸仲介・賃貸管理・売買仲介</p>
+                    <!-- 以下、その他の項目 -->
                     <p><span class="info-title">クライアント:</span> 株式会社 保険のリサーチ様</p>
                     <p><span class="info-title">制作期間:</span> 6カ月</p>
                     <p><span class="info-title">使用言語・CMS:</span> WordPress・HTML・CSS・JavaScript</p>
@@ -161,9 +164,12 @@
                          onerror="this.onerror=null;this.src='https://placehold.co/800x450/312e81/ffffff?text=画像が表示できません'">
                 </a>
                 <!-- ここまで -->   
-                <p class="text-sm info-title mb-4">URL:</span> <a href="https://kosodate.or.jp/" target="_blank" class="text-blue-500 hover:text-blue-700 underline">https://cosmo-highschool.org/</a></p>
+                <!-- 修正: ジャンルの前のURL表示は冗長なため、grid内の表示に統一します -->
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4 text-sm">
+                    <!-- URLを最初に配置 -->
+                    <p><span class="info-title">URL:</span> <a href="https://kosodate.or.jp/" target="_blank" class="text-blue-500 hover:text-blue-700 underline">https://kosodate.or.jp/</a></p>
                     <p><span class="info-title">ジャンル:</span> NPO法人（子育て支援）</p>
+                    <!-- 以下、その他の項目 -->
                     <p><span class="info-title">クライアント:</span> NPO法人子育てコンビニ様</p>
                     <p><span class="info-title">制作期間:</span> 5カ月</p>
                     <p><span class="info-title">使用言語・CMS:</span> WordPress・HTML・CSS・JavaScript</p>
@@ -182,7 +188,7 @@
                 <div class="bg-yellow-50 p-4 rounded-lg">
                     <p class="info-title text-lg text-yellow-800 mb-2">制作の背景・工夫点</p>
                     <p class="text-gray-700 text-sm">
-                        設立20周年の記念に合わせた既存サイトのフルリニューアル。主要なご要望は、スマホ対応、複雑化していた情報の整理、既存コンテンツの継承、そしてイベント情報等を法人内で更新できる仕様の実現でした。また、過去のサイトで使用していたクライアントお気に入りのイラストをボタンなどのパーツとして再構築することで、イメージを維持したまま新しくしたいというご要望に応えました。
+                        設立20周年の記念に合わせた既存サイトのフルリニューアル。主要なご要望は、スマホ対応、複雑化していた情報の整理、既存コンテンツの継承、そしてイベント情報等を法人内で更新できる仕様の実現でした。また、過去のサイトで使用していたクライアントお気に入りのイラストをボタンなどのパーツとして再構築することで、イメージを維持したまま新しくしたいというご要望に応えました。既存コンテンツはそのまま掲載するのではなく、情報整理をしてカテゴリを分けるなど、ユーザビリティの向上に努めました。
                     </p>
                 </div>
             </div>
@@ -200,9 +206,12 @@
                          onerror="this.onerror=null;this.src='https://placehold.co/800x450/312e81/ffffff?text=画像が表示できません'">
                 </a>
                 <!-- ここまで -->
-                <p class="text-sm info-title mb-4">URL:</span> <a href="https://cosmo-highschool.org/" target="_blank" class="text-blue-500 hover:text-blue-700 underline">https://cosmo-highschool.org/</a></p>
+                <!-- 修正: ジャンルの前のURL表示は冗長なため、grid内の表示に統一します -->
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4 text-sm">
+                    <!-- URLを最初に配置 -->
+                    <p><span class="info-title">URL:</span> <a href="https://cosmo-highschool.org/" target="_blank" class="text-blue-500 hover:text-blue-700 underline">https://cosmo-highschool.org/</a></p>
                     <p><span class="info-title">ジャンル:</span> 教育（フリースクール）</p>
+                    <!-- 以下、その他の項目 -->
                     <p><span class="info-title">クライアント:</span> NPO法人文化学習協同ネットワーク様</p>
                     <p><span class="info-title">制作期間:</span> 3カ月</p>
                     <p><span class="info-title">使用言語・CMS:</span> WordPress・HTML・CSS・JavaScript</p>
@@ -238,8 +247,17 @@
                     <a href="https://drive.google.com/file/d/1Huhj1mcJmHOb6UVpPdvRbnNu3ffT2yr0/view?usp=sharing" target="_blank">秋まつりチラシ</a>
                 </h3>
                 
-                <!-- PDFファイル表示ボタン -->
-                <p class="text-sm info-title mb-4">
+                <!-- サムネイル画像を追加 (max-height:[400px], width:auto, 中央揃えに変更) -->
+                <a href="https://drive.google.com/file/d/1Huhj1mcJmHOb6UVpPdvRbnNu3ffT2yr0/view?usp=sharing" target="_blank" class="work-thumbnail-link mb-4">
+                    <img src="https://shibatastic.github.io/portfolio/img/autumn_poster.jpg" 
+                         alt="秋まつりチラシ サムネイル" 
+                         class="max-h-[400px] h-auto w-auto rounded-lg shadow-md border border-gray-200 object-cover mx-auto block" 
+                         onerror="this.onerror=null;this.src='https://placehold.co/800x450/312e81/ffffff?text=画像が表示できません'">
+                </a>
+                <!-- ここまで -->
+
+                <!-- PDFファイル表示ボタン (既存のものを修正) -->
+                <p class="text-sm info-title mt-4 mb-4 text-center">
                     <a href="https://drive.google.com/file/d/1Huhj1mcJmHOb6UVpPdvRbnNu3ffT2yr0/view?usp=sharing" target="_blank" 
                        class="inline-block px-4 py-2 bg-red-600 text-white font-semibold rounded-lg shadow hover:bg-red-700 transition duration-150">
                         PDFファイルを表示
@@ -274,8 +292,17 @@
                     <a href="https://drive.google.com/file/d/1WJGZ8JKNINpEtBge5RDIjF9y_01lF-Ln/view?usp=sharing" target="_blank">夏のマナーポスター</a>
                 </h3>
                 
-                <!-- PDFファイル表示ボタン -->
-                <p class="text-sm info-title mb-4">
+                <!-- サムネイル画像を追加 (max-height:[400px], width:auto, 中央揃えに変更) -->
+                <a href="https://drive.google.com/file/d/1WJGZ8JKNINpEtBge5RDIjF9y_01lF-Ln/view?usp=sharing" target="_blank" class="work-thumbnail-link mb-4">
+                    <img src="https://shibatastic.github.io/portfolio/img/manner_poster.jpg" 
+                         alt="夏のマナーポスター サムネイル" 
+                         class="max-h-[400px] h-auto w-auto rounded-lg shadow-md border border-gray-200 object-cover mx-auto block" 
+                         onerror="this.onerror=null;this.src='https://placehold.co/800x450/312e81/ffffff?text=画像が表示できません'">
+                </a>
+                <!-- ここまで -->
+
+                <!-- PDFファイル表示ボタン (既存のものを修正) -->
+                <p class="text-sm info-title mt-4 mb-4 text-center">
                     <a href="https://drive.google.com/file/d/1WJGZ8JKNINpEtBge5RDIjF9y_01lF-Ln/view?usp=sharing" target="_blank" 
                        class="inline-block px-4 py-2 bg-red-600 text-white font-semibold rounded-lg shadow hover:bg-red-700 transition duration-150">
                         PDFファイルを表示
@@ -310,8 +337,17 @@
                     <a href="https://drive.google.com/file/d/1w8m80zyFXYmTExnUo0NhXIzTHjDBw22N/view?usp=sharing" target="_blank">武蔵野市主催イベントチラシ</a>
                 </h3>
                 
-                <!-- PDFファイル表示ボタン -->
-                <p class="text-sm info-title mb-4">
+                <!-- サムネイル画像を追加 (max-height:[400px], width:auto, 中央揃えに変更) -->
+                <a href="https://drive.google.com/file/d/1w8m80zyFXYmTExnUo0NhXIzTHjDBw22N/view?usp=sharing" target="_blank" class="work-thumbnail-link mb-4">
+                    <img src="https://shibatastic.github.io/portfolio/img/hikikomori.jpg" 
+                         alt="武蔵野市主催イベントチラシ サムネイル" 
+                         class="max-h-[400px] h-auto w-auto rounded-lg shadow-md border border-gray-200 object-cover mx-auto block" 
+                         onerror="this.onerror=null;this.src='https://placehold.co/800x450/312e81/ffffff?text=画像が表示できません'">
+                </a>
+                <!-- ここまで -->
+
+                <!-- PDFファイル表示ボタン (既存のものを修正) -->
+                <p class="text-sm info-title mt-4 mb-4 text-center">
                     <a href="https://drive.google.com/file/d/1w8m80zyFXYmTExnUo0NhXIzTHjDBw22N/view?usp=sharing" target="_blank" 
                        class="inline-block px-4 py-2 bg-red-600 text-white font-semibold rounded-lg shadow hover:bg-red-700 transition duration-150">
                         PDFファイルを表示
